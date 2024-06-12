@@ -2,9 +2,10 @@ import { useState } from 'react'
 import('./PokemonTypes.modules.css')
 import PropTypes from 'prop-types'
 
-function PokemonType({ name, color = 'white' }) {
+function PokemonType({ name, color = 'white', setPokemonType }) {
   const [toggle, setToggle] = useState(false)
-  const handleClick = () => setToggle(!toggle)
+  const handleToggleState = () => setToggle(!toggle)
+  const handlePokemonType = () => setPokemonType({ name })
 
   return (
     <li>
@@ -12,7 +13,7 @@ function PokemonType({ name, color = 'white' }) {
         style={{
           borderLeft: `${color} 0.5rem inset`,
         }}
-        onClick={handleClick}
+        onClick={[handleToggleState, handlePokemonType]}
         className={`${toggle && 'active'} pokemontype__buton`}
         type="button"
       >

@@ -1,0 +1,15 @@
+.header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0 1fr;
+  grid-template-rows: 100px;
+  border-bottom: 2px solid rgb(204, 204, 204);
+  margin-bottom: 10vh;
+
+  h1 {
+    justify-self: center;
+    font-size: 3rem;
+    font-family: serif;
+    color: rgb(204, 204, 204);
+  }
+}

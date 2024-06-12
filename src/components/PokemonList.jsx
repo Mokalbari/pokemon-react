@@ -3,7 +3,7 @@ import { useState } from 'react'
 import PokemonCard from './PokemonCard'
 import './PokemonList.modules.css'
 
-function PokemonList() {
+function PokemonList({ pokemonType, setPokemonType }) {
   const [pokemons, setPokemons] = useState([])
 
   useEffect(() => {
@@ -37,6 +37,7 @@ function PokemonList() {
             key={pokemon.id}
             name={pokemon.name}
             image={pokemon.sprites.front_default}
+            type={pokemon.types[0].type.name}
           />
         ))}
       </div>
