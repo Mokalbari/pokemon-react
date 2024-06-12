@@ -22,7 +22,7 @@ function PokemonType({ name, color = 'white' }) {
   )
 }
 
-PokemonType.PropTypes = {
+PokemonType.propTypes = {
   name: PropTypes.string.isRequired,
   color: PropTypes.string,
 }

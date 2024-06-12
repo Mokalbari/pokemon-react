@@ -1,0 +1,17 @@
+.list {
+  background-color: rgb(50, 50, 50);
+  padding-block: 2rem;
+  padding-inline: 4rem;
+  border-radius: 1rem;
+
+  .list__title {
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
+
+  .list__cards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

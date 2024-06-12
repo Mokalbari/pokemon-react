@@ -4,7 +4,7 @@ import './Filter.modules.css'
 
 function Filter() {
   return (
-    <section className="filter">
+    <aside className="filter">
       <h2 className="filter__title">Filtre</h2>
       <ul className="filter__list grid">
         {data.PokemonType.map(pokemon => {
@@ -18,7 +18,7 @@ function Filter() {
           )
         })}
       </ul>
-    </section>
+    </aside>
   )
 }
 

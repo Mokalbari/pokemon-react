@@ -3,6 +3,7 @@
   padding-block: 4rem;
   padding-inline: 2rem;
   border-radius: 1rem;
+  position: sticky;
 
   .filter__title {
     font-size: 2rem;
