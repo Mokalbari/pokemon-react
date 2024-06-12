@@ -1,0 +1,76 @@
+{
+  "PokemonType": [
+    {
+      "id": 1,
+      "name": "Grass"
+    },
+    {
+      "id": 2,
+      "name": "Fire"
+    },
+    {
+      "id": 3,
+      "name": "Water"
+    },
+    {
+      "id": 4,
+      "name": "Bug"
+    },
+    {
+      "id": 5,
+      "name": "Normal"
+    },
+    {
+      "id": 6,
+      "name": "Poison"
+    },
+    {
+      "id": 7,
+      "name": "Electric"
+    },
+    {
+      "id": 8,
+      "name": "Ground"
+    },
+    {
+      "id": 9,
+      "name": "Flying"
+    },
+    {
+      "id": 10,
+      "name": "Fighting"
+    },
+    {
+      "id": 11,
+      "name": "Psychic"
+    },
+    {
+      "id": 12,
+      "name": "Rock"
+    },
+    {
+      "id": 13,
+      "name": "Ice"
+    },
+    {
+      "id": 14,
+      "name": "Ghost"
+    },
+    {
+      "id": 15,
+      "name": "Dragon"
+    },
+    {
+      "id": 16,
+      "name": "Dark"
+    },
+    {
+      "id": 17,
+      "name": "Steel"
+    },
+    {
+      "id": 18,
+      "name": "Fairy"
+    }
+  ]
+}
