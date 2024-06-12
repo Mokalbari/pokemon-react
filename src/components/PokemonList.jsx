@@ -1,9 +1,8 @@
 import { useEffect } from 'react'
 import { useState } from 'react'
-import PokemonCard from './PokemonCard'
 import './PokemonList.modules.css'
 
-function PokemonList({ pokemonType, setPokemonType }) {
+function PokemonList({ pokemonType }) {
   const [pokemons, setPokemons] = useState([])
 
   useEffect(() => {
@@ -32,14 +31,24 @@ function PokemonList({ pokemonType, setPokemonType }) {
     <div className="flex-column list">
       <h2 className="list__title">Liste des Pokémon</h2>
       <div className="list__cards">
-        {pokemons.map(pokemon => (
-          <PokemonCard
-            key={pokemon.id}
-            name={pokemon.name}
-            image={pokemon.sprites.front_default}
-            type={pokemon.types[0].type.name}
-          />
-        ))}
+        {pokemons
+          .filter(
+            pokemon =>
+              pokemonType === '' ||
+              pokemon.types.some(
+                type => type.type.name === pokemonType.toLowerCase(),
+              ),
+          )
+          .map(pokemon => (
+            <div className="flex-column card" key={pokemon.id}>
+              <h3>
+                {pokemon.name.charAt(0).toUpperCase() +
+                  pokemon.name.slice(1).toLowerCase()}
+              </h3>
+              <img src={pokemon.sprites.front_default} alt={pokemon.name} />
+              <p>{pokemon.types[0].type.name}</p>
+            </div>
+          ))}
       </div>
     </div>
   )

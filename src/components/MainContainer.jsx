@@ -7,8 +7,8 @@ function MainContainer() {
   const [pokemonType, setPokemonType] = useState('')
   return (
     <main className="flex-row main">
-      <Filter pokemonType={pokemonType} setPokemonType={setPokemonType} />
-      <PokemonList pokemonType={pokemonType} setPokemonType={setPokemonType} />
+      <Filter setPokemonType={setPokemonType} pokemonType={pokemonType} />
+      <PokemonList pokemonType={pokemonType} />
     </main>
   )
 }
