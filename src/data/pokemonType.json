@@ -2,75 +2,93 @@
   "PokemonType": [
     {
       "id": 1,
-      "name": "Grass"
+      "name": "Grass",
+      "background_color": "#7AC74C80"
     },
     {
       "id": 2,
-      "name": "Fire"
+      "name": "Fire",
+      "background_color": "#F08030C0"
     },
     {
       "id": 3,
-      "name": "Water"
+      "name": "Water",
+      "background_color": "#4775FFAA"
     },
     {
       "id": 4,
-      "name": "Bug"
+      "name": "Bug",
+      "background_color": "#A8B820A0"
     },
     {
       "id": 5,
-      "name": "Normal"
+      "name": "Normal",
+      "background_color": "#A8A8A8D0"
     },
     {
       "id": 6,
-      "name": "Poison"
+      "name": "Poison",
+      "background_color": "#9D38BD90"
     },
     {
       "id": 7,
-      "name": "Electric"
+      "name": "Electric",
+      "background_color": "#FFD700C0"
     },
     {
       "id": 8,
-      "name": "Ground"
+      "name": "Ground",
+      "background_color": "#E0C068C0"
     },
     {
       "id": 9,
-      "name": "Flying"
+      "name": "Flying",
+      "background_color": "#A890F0AA"
     },
     {
       "id": 10,
-      "name": "Fighting"
+      "name": "Fighting",
+      "background_color": "#C03028C0"
     },
     {
       "id": 11,
-      "name": "Psychic"
+      "name": "Psychic",
+      "background_color": "#F85888C0"
     },
     {
       "id": 12,
-      "name": "Rock"
+      "name": "Rock",
+      "background_color": "#B8A038C0"
     },
     {
       "id": 13,
-      "name": "Ice"
+      "name": "Ice",
+      "background_color": "#98D8D8C0"
     },
     {
       "id": 14,
-      "name": "Ghost"
+      "name": "Ghost",
+      "background_color": "#706890D0"
     },
     {
       "id": 15,
-      "name": "Dragon"
+      "name": "Dragon",
+      "background_color": "#7030A0C0"
     },
     {
       "id": 16,
-      "name": "Dark"
+      "name": "Dark",
+      "background_color": "#705840C0"
     },
     {
       "id": 17,
-      "name": "Steel"
+      "name": "Steel",
+      "background_color": "#B8B8D0C0"
     },
     {
       "id": 18,
-      "name": "Fairy"
+      "name": "Fairy",
+      "background_color": "#E0E0E0D0"
     }
   ]
 }
