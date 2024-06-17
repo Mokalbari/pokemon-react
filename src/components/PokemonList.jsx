@@ -46,7 +46,6 @@ function PokemonList({ pokemonType }) {
                   pokemon.name.slice(1).toLowerCase()}
               </h3>
               <img src={pokemon.sprites.front_default} alt={pokemon.name} />
-              <p>{pokemon.types[0].type.name}</p>
             </div>
           ))}
       </div>
